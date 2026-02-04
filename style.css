@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+/* Navigation styles + logo */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.logo {
+    flex-basis: 30%;
+}
+
+nav div {
+
+}
+
+
+
+/* Header styles, text + cover picture */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+}
+
