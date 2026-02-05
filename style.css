@@ -31,7 +31,6 @@ nav div {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     justify-content: space-evenly;
     width: 70%;
@@ -39,3 +38,82 @@ header {
     margin: 0 auto;
 }
 
+/* Thumbnails section */
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+
+
+.thumbnail_photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+title_thumbnail {
+    margin-bottom: 30px;
+}
+
+.thumbnail {
+    width: 10vw;
+    height: 10vw;
+    background-color: gray;
+    margin: 15px;
+}
+
+/* Quote section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.quote_text {
+    margin: 40px 40px 10px 40px;
+}
+
+.quote_author {
+    font-weight: 600;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    align-self: flex-end;
+}
+
+/* Call to action section */
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 200px;
+    margin : 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Footer styles */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    min-height: 80px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
